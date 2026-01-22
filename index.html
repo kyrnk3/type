@@ -253,7 +253,11 @@
               background-image: linear-gradient(#16A085, #0E7662);
               border-color: #0B5A4B;
             }
-        </style>
+        
+.typechart .type-fx-cell {
+    cursor: pointer;
+}
+</style>
     </head>
     <body>
         <a id="add-type" class="type-icon-th" style="cursor: pointer;">Add Type</a>
@@ -903,6 +907,41 @@ var typerows = typenames.map(getElementById);
 
                 crumbs.forEach(listen);
 
+
+
+// Event delegation (more robust than per-cell listeners)
+// Clicking any chart cell cycles: x1 -> x2 -> x0 -> x0.5 -> x1
+typechartBody.addEventListener("click", function (e) {
+    var td = e.target.closest ? e.target.closest("td.type-fx-cell") : null;
+    if (!td) return;
+    if (td.id.indexOf("→") < 0) return; // ignore stats cells, etc.
+
+    switch (td.innerHTML) {
+    case "0":
+        td.className = "type-fx-cell type-fx-50";
+        td.innerHTML = "½";
+        break;
+    case "½":
+        td.className = "type-fx-cell type-fx-100";
+        td.innerHTML = "";
+        break;
+    case "":
+        td.className = "type-fx-cell type-fx-200";
+        td.innerHTML = "2";
+        break;
+    case "2":
+        td.className = "type-fx-cell type-fx-0";
+        td.innerHTML = "0";
+        break;
+    default:
+        // If anything weird ends up in the cell, reset to neutral
+        td.className = "type-fx-cell type-fx-100";
+        td.innerHTML = "";
+        break;
+    }
+
+    updateStats();
+}, false);
                 window.addEventListener("hashchange", hashUpdate, false);
 
                 document.getElementById("add-type").addEventListener("click", promptAddType, false);

@@ -905,9 +905,7 @@ var typerows = typenames.map(getElementById);
 
                 hashUpdate();
 
-                crumbs.forEach(listen);
-
-
+                // (Removed) crumbs.forEach(listen); // event delegation handles clicks
 
 // Event delegation (more robust than per-cell listeners)
 // Clicking any chart cell cycles: x1 -> x2 -> x0 -> x0.5 -> x1

@@ -109,130 +109,149 @@
                 background-color: #4E9A06;
             }
 
-            .type-normal {
-                background: #8A8A59;
-                background-image: -webkit-linear-gradient(#A8A878, #8A8A59);
-                background-image: linear-gradient(#A8A878, #8A8A59);
-                border-color: #79794E;
-            }
-
+            /* ===== Custom 20-Type Palette =====
+               Add this block AFTER your existing .type-* rules (so it overrides them).
+               Distinct, readable gradients + matching border colors.
+            */
+            
             .type-fire {
-                background: #F08030;
-                background-image: -webkit-linear-gradient(#F08030, #DD6610);
-                background-image: linear-gradient(#F08030, #DD6610);
-                border-color: #B4530D;
+              background: #E2573F;
+              background-image: -webkit-linear-gradient(#E2573F, #B53C2B);
+              background-image: linear-gradient(#E2573F, #B53C2B);
+              border-color: #8F2F22;
             }
-
+            
             .type-water {
-                background: #6890F0;
-                background-image: -webkit-linear-gradient(#6890F0, #386CEB);
-                background-image: linear-gradient(#6890F0, #386CEB);
-                border-color: #1753E3;
+              background: #2E7BD9;
+              background-image: -webkit-linear-gradient(#2E7BD9, #1E56A6);
+              background-image: linear-gradient(#2E7BD9, #1E56A6);
+              border-color: #184584;
             }
-
-            .type-electric {
-                background: #F8D030;
-                background-image: -webkit-linear-gradient(#F8D030, #F0C108);
-                background-image: linear-gradient(#F8D030, #F0C108);
-                border-color: #C19B07;
+            
+            .type-air {
+              background: #63C7D8;
+              background-image: -webkit-linear-gradient(#63C7D8, #359FB2);
+              background-image: linear-gradient(#63C7D8, #359FB2);
+              border-color: #2A7E8C;
             }
-
-            .type-grass {
-                background: #78C850;
-                background-image: -webkit-linear-gradient(#78C750, #5CA935);
-                background-image: linear-gradient(#78C750, #5CA935);
-                border-color: #4A892B;
+            
+            .type-earth {
+              background: #B07A45;
+              background-image: -webkit-linear-gradient(#B07A45, #835730);
+              background-image: linear-gradient(#B07A45, #835730);
+              border-color: #6A4627;
             }
-
+            
+            .type-plant {
+              background: #35B66A;
+              background-image: -webkit-linear-gradient(#35B66A, #238B4E);
+              background-image: linear-gradient(#35B66A, #238B4E);
+              border-color: #1B6D3D;
+            }
+            
             .type-ice {
-                background: #98D8D8;
-                background-image: -webkit-linear-gradient(#98D8D8, #69C6C6);
-                background-image: linear-gradient(#98D8D8, #69C6C6);
-                border-color: #45B6B6;
+              background: #7FD3FF;
+              background-image: -webkit-linear-gradient(#7FD3FF, #46AEE6);
+              background-image: linear-gradient(#7FD3FF, #46AEE6);
+              border-color: #2F86B3;
             }
-
-            .type-fighting {
-                background: #C03028;
-                background-image: -webkit-linear-gradient(#C03028, #9D2721);
-                background-image: linear-gradient(#C03028, #9D2721);
-                border-color: #82211B;
+            
+            .type-electric {
+              background: #F1C40F;
+              background-image: -webkit-linear-gradient(#F1C40F, #C89F0A);
+              background-image: linear-gradient(#F1C40F, #C89F0A);
+              border-color: #9E7D08;
             }
-
+            
+            .type-metal {
+              background: #8E9AA8;
+              background-image: -webkit-linear-gradient(#8E9AA8, #667382);
+              background-image: linear-gradient(#8E9AA8, #667382);
+              border-color: #4F5A66;
+            }
+            
             .type-poison {
-                background: #A040A0;
-                background-image: -webkit-linear-gradient(#A040A0, #803380);
-                background-image: linear-gradient(#A040A0, #803380);
-                border-color: #662966;
+              background: #8E44AD;
+              background-image: -webkit-linear-gradient(#8E44AD, #6C2F87);
+              background-image: linear-gradient(#8E44AD, #6C2F87);
+              border-color: #55266A;
             }
-
-            .type-ground {
-                background: #E0C068;
-                background-image: -webkit-linear-gradient(#E0C068, #D4A82F);
-                background-image: linear-gradient(#E0C068, #D4A82F);
-                border-color: #AA8623;
+            
+            .type-gas {
+              background: #A6D854;
+              background-image: -webkit-linear-gradient(#A6D854, #78B83A);
+              background-image: linear-gradient(#A6D854, #78B83A);
+              border-color: #5E8F2D;
             }
-
-            .type-flying {
-                background: #A890F0;
-                background-image: -webkit-linear-gradient(#A890F0, #9180C4);
-                background-image: linear-gradient(#A890F0, #9180C4);
-                border-color: #7762B6;
+            
+            .type-beast {
+              background: #C96B3C;
+              background-image: -webkit-linear-gradient(#C96B3C, #9B4D28);
+              background-image: linear-gradient(#C96B3C, #9B4D28);
+              border-color: #7A3D20;
             }
-
-            .type-psychic {
-                background: #F85888;
-                background-image: -webkit-linear-gradient(#F85888, #F61C5D);
-                background-image: linear-gradient(#F85888, #F61C5D);
-                border-color: #D60945;
+            
+            .type-insect {
+              background: #7CB342;
+              background-image: -webkit-linear-gradient(#7CB342, #558B2F);
+              background-image: linear-gradient(#7CB342, #558B2F);
+              border-color: #3F6E24;
             }
-
-            .type-bug {
-                background: #A8B820;
-                background-image: -webkit-linear-gradient(#A8B820, #8D9A1B);
-                background-image: linear-gradient(#A8B820, #8D9A1B);
-                border-color: #616B13;
+            
+            .type-avian {
+              background: #7E95FF;
+              background-image: -webkit-linear-gradient(#7E95FF, #5668D6);
+              background-image: linear-gradient(#7E95FF, #5668D6);
+              border-color: #434FA6;
             }
-
-            .type-rock {
-                background: #B8A038;
-                background-image: -webkit-linear-gradient(#B8A038, #93802D);
-                background-image: linear-gradient(#B8A038, #93802D);
-                border-color: #746523;
+            
+            .type-light {
+              background: #F6E58D;
+              background-image: -webkit-linear-gradient(#F6E58D, #E0C95C);
+              background-image: linear-gradient(#F6E58D, #E0C95C);
+              border-color: #B79F47;
             }
-
-            .type-ghost {
-                background: #705898;
-                background-image: -webkit-linear-gradient(#705898, #554374);
-                background-image: linear-gradient(#705898, #554374);
-                border-color: #413359;
-            }
-
-            .type-dragon {
-                background: #7038F8;
-                background-image: -webkit-linear-gradient(#7038F8, #4C08EF);
-                background-image: linear-gradient(#7038F8, #4C08EF);
-                border-color: #3D07C0;
-            }
-
+            
             .type-dark {
-                background: #705848;
-                background-image: -webkit-linear-gradient(#705848, #513F34);
-                background-image: linear-gradient(#705848, #513F34);
-                border-color: #362A23;
+              background: #3D3A50;
+              background-image: -webkit-linear-gradient(#3D3A50, #272538);
+              background-image: linear-gradient(#3D3A50, #272538);
+              border-color: #1D1B2A;
             }
-
-            .type-steel {
-                background: #B8B8D0;
-                background-image: -webkit-linear-gradient(#B8B8D0, #9797BA);
-                background-image: linear-gradient(#B8B8D0, #9797BA);
-                border-color: #7A7AA7;
+            
+            .type-sound {
+              background: #FF6FB5;
+              background-image: -webkit-linear-gradient(#FF6FB5, #D94C93);
+              background-image: linear-gradient(#FF6FB5, #D94C93);
+              border-color: #AA3A72;
             }
-
-            .type-fairy {
-                background: #E898E8;
-                background-image: -webkit-linear-gradient(#E898E8, #DE6EDE);
-                background-image: linear-gradient(#E898E8, #DE6EDE);
-                border-color: #D547D5;
+            
+            .type-mind {
+              background: #7F8CFF;
+              background-image: -webkit-linear-gradient(#7F8CFF, #5863D6);
+              background-image: linear-gradient(#7F8CFF, #5863D6);
+              border-color: #434CA6;
+            }
+            
+            .type-spirit {
+              background: #9B59B6;
+              background-image: -webkit-linear-gradient(#9B59B6, #6F3D8C);
+              background-image: linear-gradient(#9B59B6, #6F3D8C);
+              border-color: #56306C;
+            }
+            
+            .type-cosmic {
+              background: #3B82F6;
+              background-image: -webkit-linear-gradient(#3B82F6, #1E40AF);
+              background-image: linear-gradient(#3B82F6, #1E40AF);
+              border-color: #17348C;
+            }
+            
+            .type-tech {
+              background: #16A085;
+              background-image: -webkit-linear-gradient(#16A085, #0E7662);
+              background-image: linear-gradient(#16A085, #0E7662);
+              border-color: #0B5A4B;
             }
         </style>
     </head>
@@ -241,538 +260,563 @@
         <table class="type-table">
             <thead>
                 <tr id="typechart-head">
-                    <th class="cell-nano">DEFENSE&nbsp;&#8594;<br/>ATTACK&nbsp;&#8628;</th>
-                    <th>
-                        <a class="type-abbr type-normal">Nor</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-fire">Fir</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-water">Wat</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-electric">Ele</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-grass">Gra</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-ice">Ice</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-fighting">Fig</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-poison">Poi</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-ground">Gro</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-flying">Fly</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-psychic">Psy</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-bug">Bug</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-rock">Roc</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-ghost">Gho</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-dragon">Dra</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-dark">Dar</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-steel">Ste</a>
-                    </th>
-                    <th>
-                        <a class="type-abbr type-fairy">Fai</a>
-                    </th>
+                  <th class="cell-nano">DEFENSE&nbsp;&#8594;<br/>ATTACK&nbsp;&#8628;</th>
+                
+                  <th><a class="type-abbr type-fire">Fir</a></th>
+                  <th><a class="type-abbr type-water">Wat</a></th>
+                  <th><a class="type-abbr type-air">Air</a></th>
+                  <th><a class="type-abbr type-earth">Ear</a></th>
+                  <th><a class="type-abbr type-plant">Pla</a></th>
+                  <th><a class="type-abbr type-ice">Ice</a></th>
+                  <th><a class="type-abbr type-electric">Ele</a></th>
+                  <th><a class="type-abbr type-metal">Met</a></th>
+                  <th><a class="type-abbr type-poison">Poi</a></th>
+                  <th><a class="type-abbr type-gas">Gas</a></th>
+                
+                  <th><a class="type-abbr type-beast">Bea</a></th>
+                  <th><a class="type-abbr type-insect">Ins</a></th>
+                  <th><a class="type-abbr type-avian">Avi</a></th>
+                
+                  <th><a class="type-abbr type-light">Lig</a></th>
+                  <th><a class="type-abbr type-dark">Dar</a></th>
+                  <th><a class="type-abbr type-sound">Sou</a></th>
+                  <th><a class="type-abbr type-mind">Min</a></th>
+                
+                  <th><a class="type-abbr type-spirit">Spi</a></th>
+                  <th><a class="type-abbr type-cosmic">Cos</a></th>
+                  <th><a class="type-abbr type-tech">Tec</a></th>
                 </tr>
             </thead>
             <tbody id="typechart-body">
-                <tr id="Normal">
-                    <th>
-                        <a class="type-icon-th type-normal">Normal</a>
-                    </th>
-                    <td id="Normal → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Fire"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Grass"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Rock"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Normal → Ghost"    class="type-fx-cell type-fx-0">0</td>
-                    <td id="Normal → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Normal → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Normal → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Fire">
-                    <th>
-                        <a class="type-icon-th type-fire">Fire</a>
-                    </th>
-                    <td id="Fire → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Fire → Fire"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fire → Water"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fire → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Fire → Grass"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fire → Ice"      class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fire → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Fire → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Fire → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Fire → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Fire → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Fire → Bug"      class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fire → Rock"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fire → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Fire → Dragon"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fire → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Fire → Steel"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fire → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Water">
-                    <th>
-                        <a class="type-icon-th type-water">Water</a>
-                    </th>
-                    <td id="Water → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Fire"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Water → Water"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Water → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Grass"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Water → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Ground"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Water → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Rock"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Water → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Dragon"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Water → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Steel"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Water → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Electric">
-                    <th>
-                        <a class="type-icon-th type-electric">Electric</a>
-                    </th>
-                    <td id="Electric → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Fire"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Water"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Electric → Electric" class="type-fx-cell type-fx-50">½</td>
-                    <td id="Electric → Grass"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Electric → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Ground"   class="type-fx-cell type-fx-0">0</td>
-                    <td id="Electric → Flying"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Electric → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Rock"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Dragon"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Electric → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Steel"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Electric → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Grass">
-                    <th>
-                        <a class="type-icon-th type-grass">Grass</a>
-                    </th>
-                    <td id="Grass → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Grass → Fire"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Grass → Water"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Grass → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Grass → Grass"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Grass → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Grass → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Grass → Poison"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Grass → Ground"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Grass → Flying"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Grass → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Grass → Bug"      class="type-fx-cell type-fx-50">½</td>
-                    <td id="Grass → Rock"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Grass → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Grass → Dragon"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Grass → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Grass → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Grass → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Ice">
-                    <th>
-                        <a class="type-icon-th type-ice">Ice</a>
-                    </th>
-                    <td id="Ice → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Ice → Fire"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Ice → Water"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Ice → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Ice → Grass"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ice → Ice"      class="type-fx-cell type-fx-50">½</td>
-                    <td id="Ice → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Ice → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Ice → Ground"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ice → Flying"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ice → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Ice → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Ice → Rock"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Ice → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Ice → Dragon"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ice → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Ice → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Ice → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Fighting">
-                    <th>
-                        <a class="type-icon-th type-fighting">Fighting</a>
-                    </th>
-                    <td id="Fighting → Normal"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fighting → Fire"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Fighting → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Fighting → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Fighting → Grass"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Fighting → Ice"      class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fighting → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Fighting → Poison"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fighting → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Fighting → Flying"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fighting → Psychic"  class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fighting → Bug"      class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fighting → Rock"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fighting → Ghost"    class="type-fx-cell type-fx-0">0</td>
-                    <td id="Fighting → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Fighting → Dark"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fighting → Steel"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fighting → Fairy"    class="type-fx-cell type-fx-50">½</td>
-                </tr>
-                <tr id="Poison">
-                    <th>
-                        <a class="type-icon-th type-poison">Poison</a>
-                    </th>
-                    <td id="Poison → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Fire"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Grass"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Poison → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Poison"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Poison → Ground"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Poison → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Rock"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Poison → Ghost"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Poison → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Poison → Steel"    class="type-fx-cell type-fx-0">0</td>
-                    <td id="Poison → Fairy"    class="type-fx-cell type-fx-200">2</td>
-                </tr>
-                <tr id="Ground">
-                    <th>
-                        <a class="type-icon-th type-ground">Ground</a>
-                    </th>
-                    <td id="Ground → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Ground → Fire"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ground → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Ground → Electric" class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ground → Grass"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Ground → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Ground → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Ground → Poison"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ground → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Ground → Flying"   class="type-fx-cell type-fx-0">0</td>
-                    <td id="Ground → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Ground → Bug"      class="type-fx-cell type-fx-50">½</td>
-                    <td id="Ground → Rock"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ground → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Ground → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Ground → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Ground → Steel"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ground → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Flying">
-                    <th>
-                        <a class="type-icon-th type-flying">Flying</a>
-                    </th>
-                    <td id="Flying → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Fire"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Electric" class="type-fx-cell type-fx-50">½</td>
-                    <td id="Flying → Grass"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Flying → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Fighting" class="type-fx-cell type-fx-200">2</td>
-                    <td id="Flying → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Bug"      class="type-fx-cell type-fx-200">2</td>
-                    <td id="Flying → Rock"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Flying → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Flying → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Flying → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Psychic">
-                    <th>
-                        <a class="type-icon-th type-psychic">Psychic</a>
-                    </th>
-                    <td id="Psychic → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Fire"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Grass"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Fighting" class="type-fx-cell type-fx-200">2</td>
-                    <td id="Psychic → Poison"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Psychic → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Psychic"  class="type-fx-cell type-fx-50">½</td>
-                    <td id="Psychic → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Rock"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Psychic → Dark"     class="type-fx-cell type-fx-0">0</td>
-                    <td id="Psychic → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Psychic → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Bug">
-                    <th>
-                        <a class="type-icon-th type-bug">Bug</a>
-                    </th>
-                    <td id="Bug → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Bug → Fire"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Bug → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Bug → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Bug → Grass"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Bug → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Bug → Fighting" class="type-fx-cell type-fx-50">½</td>
-                    <td id="Bug → Poison"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Bug → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Bug → Flying"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Bug → Psychic"  class="type-fx-cell type-fx-200">2</td>
-                    <td id="Bug → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Bug → Rock"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Bug → Ghost"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Bug → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Bug → Dark"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Bug → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Bug → Fairy"    class="type-fx-cell type-fx-50">½</td>
-                </tr>
-                <tr id="Rock">
-                    <th>
-                        <a class="type-icon-th type-rock">Rock</a>
-                    </th>
-                    <td id="Rock → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Fire"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Rock → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Grass"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Ice"      class="type-fx-cell type-fx-200">2</td>
-                    <td id="Rock → Fighting" class="type-fx-cell type-fx-50">½</td>
-                    <td id="Rock → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Ground"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Rock → Flying"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Rock → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Bug"      class="type-fx-cell type-fx-200">2</td>
-                    <td id="Rock → Rock"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Rock → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Rock → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Ghost">
-                    <th>
-                        <a class="type-icon-th type-ghost">Ghost</a>
-                    </th>
-                    <td id="Ghost → Normal"   class="type-fx-cell type-fx-0">0</td>
-                    <td id="Ghost → Fire"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Grass"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Psychic"  class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ghost → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Rock"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Ghost"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Ghost → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Dark"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Ghost → Steel"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Ghost → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
-                <tr id="Dragon">
-                    <th>
-                        <a class="type-icon-th type-dragon">Dragon</a>
-                    </th>
-                    <td id="Dragon → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Fire"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Grass"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Rock"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Dragon"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Dragon → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Dragon → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Dragon → Fairy"    class="type-fx-cell type-fx-0">0</td>
-                </tr>
-                <tr id="Dark">
-                    <th>
-                        <a class="type-icon-th type-dark">Dark</a>
-                    </th>
-                    <td id="Dark → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Fire"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Grass"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Fighting" class="type-fx-cell type-fx-50">½</td>
-                    <td id="Dark → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Psychic"  class="type-fx-cell type-fx-200">2</td>
-                    <td id="Dark → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Rock"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Ghost"    class="type-fx-cell type-fx-200">2</td>
-                    <td id="Dark → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Dark"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Dark → Steel"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Dark → Fairy"    class="type-fx-cell type-fx-50">½</td>
-                </tr>
-                <tr id="Steel">
-                    <th>
-                        <a class="type-icon-th type-steel">Steel</a>
-                    </th>
-                    <td id="Steel → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Fire"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Steel → Water"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Steel → Electric" class="type-fx-cell type-fx-50">½</td>
-                    <td id="Steel → Grass"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Ice"      class="type-fx-cell type-fx-200">2</td>
-                    <td id="Steel → Fighting" class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Poison"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Rock"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Steel → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Dragon"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Dark"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Steel → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Steel → Fairy"    class="type-fx-cell type-fx-200">2</td>
-                </tr>
-                <tr id="Fairy">
-                    <th>
-                        <a class="type-icon-th type-fairy">Fairy</a>
-                    </th>
-                    <td id="Fairy → Normal"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Fire"     class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fairy → Water"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Electric" class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Grass"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Ice"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Fighting" class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fairy → Poison"   class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fairy → Ground"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Flying"   class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Psychic"  class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Bug"      class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Rock"     class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Ghost"    class="type-fx-cell type-fx-100"></td>
-                    <td id="Fairy → Dragon"   class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fairy → Dark"     class="type-fx-cell type-fx-200">2</td>
-                    <td id="Fairy → Steel"    class="type-fx-cell type-fx-50">½</td>
-                    <td id="Fairy → Fairy"    class="type-fx-cell type-fx-100"></td>
-                </tr>
+              <!-- Fire -->
+              <tr id="Fire">
+                <th><a class="type-icon-th type-fire">Fire</a></th>
+                <td id="Fire → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Water -->
+              <tr id="Water">
+                <th><a class="type-icon-th type-water">Water</a></th>
+                <td id="Water → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Air -->
+              <tr id="Air">
+                <th><a class="type-icon-th type-air">Air</a></th>
+                <td id="Air → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Earth -->
+              <tr id="Earth">
+                <th><a class="type-icon-th type-earth">Earth</a></th>
+                <td id="Earth → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Plant -->
+              <tr id="Plant">
+                <th><a class="type-icon-th type-plant">Plant</a></th>
+                <td id="Plant → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Ice -->
+              <tr id="Ice">
+                <th><a class="type-icon-th type-ice">Ice</a></th>
+                <td id="Ice → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Electric -->
+              <tr id="Electric">
+                <th><a class="type-icon-th type-electric">Electric</a></th>
+                <td id="Electric → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Metal -->
+              <tr id="Metal">
+                <th><a class="type-icon-th type-metal">Metal</a></th>
+                <td id="Metal → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Poison -->
+              <tr id="Poison">
+                <th><a class="type-icon-th type-poison">Poison</a></th>
+                <td id="Poison → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Gas -->
+              <tr id="Gas">
+                <th><a class="type-icon-th type-gas">Gas</a></th>
+                <td id="Gas → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Beast -->
+              <tr id="Beast">
+                <th><a class="type-icon-th type-beast">Beast</a></th>
+                <td id="Beast → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Insect -->
+              <tr id="Insect">
+                <th><a class="type-icon-th type-insect">Insect</a></th>
+                <td id="Insect → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Avian -->
+              <tr id="Avian">
+                <th><a class="type-icon-th type-avian">Avian</a></th>
+                <td id="Avian → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Light -->
+              <tr id="Light">
+                <th><a class="type-icon-th type-light">Light</a></th>
+                <td id="Light → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Dark -->
+              <tr id="Dark">
+                <th><a class="type-icon-th type-dark">Dark</a></th>
+                <td id="Dark → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Sound -->
+              <tr id="Sound">
+                <th><a class="type-icon-th type-sound">Sound</a></th>
+                <td id="Sound → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Mind -->
+              <tr id="Mind">
+                <th><a class="type-icon-th type-mind">Mind</a></th>
+                <td id="Mind → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Spirit -->
+              <tr id="Spirit">
+                <th><a class="type-icon-th type-spirit">Spirit</a></th>
+                <td id="Spirit → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Cosmic -->
+              <tr id="Cosmic">
+                <th><a class="type-icon-th type-cosmic">Cosmic</a></th>
+                <td id="Cosmic → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
+            
+              <!-- Tech -->
+              <tr id="Tech">
+                <th><a class="type-icon-th type-tech">Tech</a></th>
+                <td id="Tech → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Tech" class="type-fx-cell type-fx-100"></td>
+              </tr>
             </tbody>
         </table>
         <table class="type-table">
             <thead>
                 <tr id="typestats-head">
-                    <th class="cell-nano">TYPE&nbsp;&#8594;<br/>STAT&nbsp;&#8628;</th>
-                    <th>
-                        <a class="type-icon-th type-normal">Normal</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-fire">Fire</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-water">Water</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-electric">Electric</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-grass">Grass</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-ice">Ice</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-fighting">Fighting</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-poison">Poison</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-ground">Ground</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-flying">Flying</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-psychic">Psychic</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-bug">Bug</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-rock">Rock</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-ghost">Ghost</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-dragon">Dragon</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-dark">Dark</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-steel">Steel</a>
-                    </th>
-                    <th>
-                        <a class="type-icon-th type-fairy">Fairy</a>
-                    </th>
+                  <th class="cell-nano">TYPE&nbsp;&#8594;<br/>STAT&nbsp;&#8628;</th>
+                
+                  <th><a class="type-icon-th type-fire">Fire</a></th>
+                  <th><a class="type-icon-th type-water">Water</a></th>
+                  <th><a class="type-icon-th type-air">Air</a></th>
+                  <th><a class="type-icon-th type-earth">Earth</a></th>
+                  <th><a class="type-icon-th type-plant">Plant</a></th>
+                  <th><a class="type-icon-th type-ice">Ice</a></th>
+                  <th><a class="type-icon-th type-electric">Electric</a></th>
+                  <th><a class="type-icon-th type-metal">Metal</a></th>
+                  <th><a class="type-icon-th type-poison">Poison</a></th>
+                  <th><a class="type-icon-th type-gas">Gas</a></th>
+                
+                  <th><a class="type-icon-th type-beast">Beast</a></th>
+                  <th><a class="type-icon-th type-insect">Insect</a></th>
+                  <th><a class="type-icon-th type-avian">Avian</a></th>
+                
+                  <th><a class="type-icon-th type-light">Light</a></th>
+                  <th><a class="type-icon-th type-dark">Dark</a></th>
+                  <th><a class="type-icon-th type-sound">Sound</a></th>
+                  <th><a class="type-icon-th type-mind">Mind</a></th>
+                
+                  <th><a class="type-icon-th type-spirit">Spirit</a></th>
+                  <th><a class="type-icon-th type-cosmic">Cosmic</a></th>
+                  <th><a class="type-icon-th type-tech">Tech</a></th>
                 </tr>
             </thead>
             <tbody>
@@ -843,25 +887,12 @@
         </table>
         <script>
             window.addEventListener("DOMContentLoaded", function () {
-                var typenames = [ "Normal"
-                                , "Fire"
-                                , "Water"
-                                , "Electric"
-                                , "Grass"
-                                , "Ice"
-                                , "Fighting"
-                                , "Poison"
-                                , "Ground"
-                                , "Flying"
-                                , "Psychic"
-                                , "Bug"
-                                , "Rock"
-                                , "Ghost"
-                                , "Dragon"
-                                , "Dark"
-                                , "Steel"
-                                , "Fairy"
-                                ];
+                var typenames = [
+                  "Fire", "Water", "Air", "Earth", "Plant", "Ice", "Electric", "Metal", "Poison", "Gas",
+                  "Beast", "Insect", "Avian",
+                  "Light", "Dark", "Sound", "Mind",
+                  "Spirit", "Cosmic", "Tech"
+                ];
 
                 var typechartHead = document.getElementById("typechart-head");
                 var typechartBody = document.getElementById("typechart-body");

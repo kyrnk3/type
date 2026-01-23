@@ -254,6 +254,28 @@
               border-color: #0B5A4B;
             }
         
+
+            .type-martial {
+              background: #D35400;
+              background-image: -webkit-linear-gradient(#D35400, #A84300);
+              background-image: linear-gradient(#D35400, #A84300);
+              border-color: #7A3200;
+            }
+
+            .type-mythic {
+              background: #C2185B;
+              background-image: -webkit-linear-gradient(#C2185B, #8E1242);
+              background-image: linear-gradient(#C2185B, #8E1242);
+              border-color: #6A0D32;
+            }
+
+            .type-urban {
+              background: #607D8B;
+              background-image: -webkit-linear-gradient(#607D8B, #455A64);
+              background-image: linear-gradient(#607D8B, #455A64);
+              border-color: #37474F;
+            }
+
 .typechart .type-fx-cell {
     cursor: pointer;
 }
@@ -289,6 +311,9 @@
                   <th><a class="type-abbr type-spirit">Spi</a></th>
                   <th><a class="type-abbr type-cosmic">Cos</a></th>
                   <th><a class="type-abbr type-tech">Tec</a></th>
+                  <th><a class="type-abbr type-martial">Mar</a></th>
+                  <th><a class="type-abbr type-mythic">Myt</a></th>
+                  <th><a class="type-abbr type-urban">Urb</a></th>
                 </tr>
             </thead>
             <tbody id="typechart-body">
@@ -315,6 +340,9 @@
                 <td id="Fire → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Fire → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Fire → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Fire → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Water -->
@@ -340,6 +368,9 @@
                 <td id="Water → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Water → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Water → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Water → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Air -->
@@ -365,6 +396,9 @@
                 <td id="Air → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Air → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Air → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Air → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Earth -->
@@ -390,6 +424,9 @@
                 <td id="Earth → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Earth → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Earth → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Earth → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Plant -->
@@ -415,6 +452,9 @@
                 <td id="Plant → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Plant → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Plant → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Plant → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Ice -->
@@ -440,6 +480,9 @@
                 <td id="Ice → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Ice → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Ice → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Ice → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Electric -->
@@ -465,6 +508,9 @@
                 <td id="Electric → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Electric → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Electric → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Electric → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Metal -->
@@ -490,6 +536,9 @@
                 <td id="Metal → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Metal → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Metal → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Metal → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Poison -->
@@ -515,6 +564,9 @@
                 <td id="Poison → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Poison → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Poison → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Poison → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Gas -->
@@ -540,6 +592,9 @@
                 <td id="Gas → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Gas → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Gas → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Gas → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Beast -->
@@ -565,6 +620,9 @@
                 <td id="Beast → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Beast → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Beast → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Beast → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Insect -->
@@ -590,6 +648,9 @@
                 <td id="Insect → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Insect → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Insect → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Insect → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Avian -->
@@ -615,6 +676,9 @@
                 <td id="Avian → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Avian → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Avian → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Avian → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Light -->
@@ -640,6 +704,9 @@
                 <td id="Light → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Light → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Light → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Light → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Dark -->
@@ -665,6 +732,9 @@
                 <td id="Dark → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Dark → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Dark → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Dark → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Sound -->
@@ -690,6 +760,9 @@
                 <td id="Sound → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Sound → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Sound → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Sound → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Mind -->
@@ -715,6 +788,9 @@
                 <td id="Mind → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Mind → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Mind → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Mind → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Spirit -->
@@ -740,6 +816,9 @@
                 <td id="Spirit → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Spirit → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Spirit → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Spirit → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Cosmic -->
@@ -765,6 +844,9 @@
                 <td id="Cosmic → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Cosmic → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Cosmic → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Cosmic → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
             
               <!-- Tech -->
@@ -790,7 +872,97 @@
                 <td id="Tech → Spirit" class="type-fx-cell type-fx-100"></td>
                 <td id="Tech → Cosmic" class="type-fx-cell type-fx-100"></td>
                 <td id="Tech → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Tech → Urban" class="type-fx-cell type-fx-100"></td>
               </tr>
+
+              <!-- Martial -->
+              <tr id="Martial">
+                <th><a class="type-icon-th type-martial">Martial</a></th>
+                <td id="Martial → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Martial → Urban" class="type-fx-cell type-fx-100"></td>
+              </tr>
+
+
+              <!-- Mythic -->
+              <tr id="Mythic">
+                <th><a class="type-icon-th type-mythic">Mythic</a></th>
+                <td id="Mythic → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Mythic → Urban" class="type-fx-cell type-fx-100"></td>
+              </tr>
+
+
+              <!-- Urban -->
+              <tr id="Urban">
+                <th><a class="type-icon-th type-urban">Urban</a></th>
+                <td id="Urban → Fire" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Water" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Air" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Earth" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Plant" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Ice" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Electric" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Metal" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Poison" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Gas" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Beast" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Insect" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Avian" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Light" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Dark" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Sound" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Mind" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Spirit" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Cosmic" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Tech" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Martial" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Mythic" class="type-fx-cell type-fx-100"></td>
+                <td id="Urban → Urban" class="type-fx-cell type-fx-100"></td>
+              </tr>
+
             </tbody>
         </table>
         <table class="type-table">
@@ -821,6 +993,9 @@
                   <th><a class="type-icon-th type-spirit">Spirit</a></th>
                   <th><a class="type-icon-th type-cosmic">Cosmic</a></th>
                   <th><a class="type-icon-th type-tech">Tech</a></th>
+                  <th><a class="type-icon-th type-martial">Martial</a></th>
+                  <th><a class="type-icon-th type-mythic">Mythic</a></th>
+                  <th><a class="type-icon-th type-urban">Urban</a></th>
                 </tr>
             </thead>
             <tbody>
@@ -841,7 +1016,7 @@
                   "Fire", "Water", "Air", "Earth", "Plant", "Ice", "Electric", "Metal", "Poison", "Gas",
                   "Beast", "Insect", "Avian",
                   "Light", "Dark", "Sound", "Mind",
-                  "Spirit", "Cosmic", "Tech"
+                  "Spirit", "Cosmic", "Tech", "Martial", "Mythic", "Urban"
                 ];
 
                 var typechartHead = document.getElementById("typechart-head");
